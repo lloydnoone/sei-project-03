@@ -14,11 +14,15 @@ mongoose.connect(
   () => console.log('mongo is connected. ')  
 ) // connect our db first
 
+app.use(express.static(`${__dirname}/dist`))
+
 app.use(bodyParser.json()) //bp middleware
 
 app.use(logger)// registering custom logger
 
 app.use('/api', router) // all middleware is now in the router it always has to be bellow body parser // Prefix by API
+
+app.get('/*', (req, res) => res.sendFile(`${__dirname}/dist/index.html`))
 
 app.use(errorHandler)
 
