@@ -20,7 +20,7 @@ People can use the app to share vegetables with others users by posting their ow
 
 ## Deployment
 
-The app is deployed on Heroku and it can be found here- vegetableshare.herokuapp.com
+The app is deployed on Heroku and it can be found here- https://vegetableshare.herokuapp.com
 
 ## Getting Started
 
