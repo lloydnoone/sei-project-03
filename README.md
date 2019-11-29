@@ -28,7 +28,7 @@ Simply start browsing veg at the url provided and sign in to start posting and a
 
 ## How it works
 
-Anybody can browse the vegetales that have been posted. After signing up, users can then post vegetales, claim other users vegetables or comment. There is a system in place for making and keeping track of pickup appointments. This inlcudes a messaging system between users that have agreed or about to agree on an appointment.  The vegetables are searchable by name on a list or map. The dashboard is where users have quick access to info and interactions with appointments and other users.
+Anybody can browse the vegetables that have been posted. After signing up, users can then post vegetales, claim other users vegetables or comment. There is a system in place for making and keeping track of pickup appointments. This inlcudes a messaging system between users that have agreed or about to agree on an appointment.  The vegetables are searchable by name on a list or map. The dashboard is where users have quick access to info and interactions with appointments and other users.
 
 ![image](https://github.com/lloydnoone/sei-project-03/blob/master/Screenshot%202019-11-29%20at%2011.29.54.png?raw=true)
 
