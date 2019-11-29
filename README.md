@@ -26,6 +26,8 @@ The app is deployed on Heroku and it can be found here- https://vegetableshare.h
 
 Simply start browsing veg at the url provided and sign in to start posting and arranging pickup appointments with other users.
 
+![image](https://github.com/lloydnoone/sei-project-03/blob/master/Screenshot%202019-11-29%20at%2011.34.07.png?raw=true)
+
 ## How it works
 
 Anybody can browse the vegetables that have been posted. After signing up, users can then post vegetales, claim other users vegetables or comment. There is a system in place for making and keeping track of pickup appointments. This inlcudes a messaging system between users that have agreed or about to agree on an appointment.  The vegetables are searchable by name on a list or map. The dashboard is where users have quick access to info and interactions with appointments and other users.
@@ -67,8 +69,6 @@ getPostcodes() {
 The main challenge of this was collaborating on a team and making use if Git. I think we were quite organised and communicated well on this but still had some problems along the way. Communication as a whole was great and everyone worked well together until it came to styling. I think this is because styling is more subjective and everone has their own opinion.
 
 A small challenge i had was to make the search bar re usable on multiple pages in that it would re direct upon submit and carry on the search on the index page. I was quite proud of this even though the solution is quite simple once found. The backend got quite comiplicated and it was hard for me to keep track of what was going on with the appointment models and its relations. Two other team members focused on that area so i realised i had to let go of that and focus on my own tasks.
-
-![image](https://github.com/lloydnoone/sei-project-03/blob/master/Screenshot%202019-11-29%20at%2011.34.07.png?raw=true)
 
 ## Author 
 
