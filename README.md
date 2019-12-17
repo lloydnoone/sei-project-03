@@ -64,12 +64,20 @@ getPostcodes() {
   }
 ```
 
-## Challenges and future improvements
+## Wins and Blockers
 
 The main challenge of this was collaborating on a team and making use if Git. I think we were quite organised and communicated well on this but still had some problems along the way. Communication as a whole was great and everyone worked well together until it came to styling. I think this is because styling is more subjective and everone has their own opinion.
 
 A small challenge i had was to make the search bar re usable on multiple pages in that it would re direct upon submit and carry on the search on the index page. I was quite proud of this even though the solution is quite simple once found. The backend got quite comiplicated and it was hard for me to keep track of what was going on with the appointment models and its relations. Two other team members focused on that area so i realised i had to let go of that and focus on my own tasks.
 
-## Author 
+## Future Features
+
+The first imporvement i would make to this app is re-doing the styling and layout. Im considering making the front end again using react hooks or Vue for further learning. Another thing would be the messaging between users. at the moment it is a rudimentery system that uses a timer to check for new messages. I would like to look into sockets to push notifications.
+
+## Key Learnings
+
+Along with using Git as a part of a team, other things such as planning, division of labour and time managment when working as part of a team also becomes more complicated. In order to make this easier we used things like trello to to coordinate our efforts. This was new to me and afte this experience i regularly employ tools like this now.
+
+## Author
 
 Lloyd Noone - portfolio: lloydnoone.com
