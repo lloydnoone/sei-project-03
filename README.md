@@ -16,7 +16,8 @@ People can use the app to share vegetables with others users by posting their ow
 4. React
 5. Express
 6. MongoDB
-4. GitHub
+7. Node.js
+8. GitHub
 
 ## Deployment
 
