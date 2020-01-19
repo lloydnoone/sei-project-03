@@ -30,14 +30,11 @@ class VegetablesMap extends React.Component {
     
   }
 
-  componentDidUpdate() {
-    this.getPostcodes()
-  }
-
   getData() {
     axios.get('/api/vegetables')
       .then(res => {
         this.setState({ vegetables: res.data })
+        this.getPostcodes()
       })
       .catch(err => this.setState({ errors: err.response.data.errors }))
 
@@ -53,6 +50,7 @@ class VegetablesMap extends React.Component {
 
   onChange({ target: { name, value, dataset, innerHTML } }) {
     console.log('onchange was called. ')
+    console.log(this.state)
     value ? this.setState({ [name]: value }) : this.setState({ [dataset.name]: (value || innerHTML) })
   }
 
@@ -70,8 +68,6 @@ class VegetablesMap extends React.Component {
   }
 
   render() {
-    
-    // console.log(this.state.postcodes)
     if (!this.state.vegetables) return null
     if (!this.state.postcodes) return null
     const { showPopup } = this.state
@@ -81,6 +77,7 @@ class VegetablesMap extends React.Component {
           name='searchTerm'
           onChange={this.onChange}
           onSubmit={this.submitSearch}
+          current={this.state.typeSearch}
         />
         <div className='mapArea'>
           <MapGL
@@ -112,7 +109,7 @@ class VegetablesMap extends React.Component {
                   anchor="bottom" >
 
 
-                  {this.state.vegetables.map(veg =>
+                  {this.filterVegetables().map(veg =>
                     <div key={veg._id}>
                       {veg.vegLocation.replace(' ', '') === postcode.query ? <Link to={`/vegetables/${veg._id}`}>
                         {veg.title} 🥕 {veg.vegLocation} </Link> : null}
@@ -137,3 +134,9 @@ class VegetablesMap extends React.Component {
 
 export default VegetablesMap
 
+// {this.state.vegetables.map(veg =>
+//   <div key={veg._id}>
+//     {veg.vegLocation.replace(' ', '') === postcode.query ? <Link to={`/vegetables/${veg._id}`}>
+//       {veg.title} 🥕 {veg.vegLocation} </Link> : null}
+
+//   </div>)}
