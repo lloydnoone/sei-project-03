@@ -1,16 +1,9 @@
-<<<<<<< HEAD
 # sei-project-03
 Jenny
 claire smith 
 lloyd noone
 paul cooke
 
-# bug fixes
-
-map search for postcodes
-search should reset when deleting values
-deploy with correct env variables
-=======
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
 
 # Vegetable Sharing Platform
@@ -95,4 +88,9 @@ Along with using Git as a part of a team, other things such as planning, divisio
 ## Author
 
 Lloyd Noone - portfolio: lloydnoone.com
->>>>>>> dda13720eb65f67c18a24912b118330b8df2817e
+
+# bug fixes
+
+map search for postcodes
+search should reset when deleting values
+deploy with correct env variables
